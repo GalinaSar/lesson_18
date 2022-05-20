@@ -102,6 +102,8 @@ body {
 		&__logo {
             display: flex;
 		}
+        &__items {
+        }
 }
 .logo {
     // .logo__vector
@@ -123,11 +125,6 @@ body {
     }
     @media (max-width: 580.98px) {
         justify-content: center;;
-    }
-}
-.body {
-    // .body__items
-    &__items {
     }
 }
 .items {
@@ -913,7 +910,6 @@ padding-top: 171px;
     row-gap: 30px;
     position: relative;
     @media (max-width: 991.98px) {
-        flex-direction: none;
         display: flex;
         flex-wrap: wrap;
     }
